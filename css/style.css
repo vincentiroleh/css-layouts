@@ -1,0 +1,78 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    font-family: Futura, sans-serif;
+    text-align: center;
+}
+
+nav {
+    background-color: #2C07AD;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 40px;
+    font-size: 20px;
+    padding: 2px;
+    
+}
+nav a:hover {
+    border: groove 5px coral;
+    transition: 1.2s;
+    
+
+}
+header {
+    margin: 7rem auto;
+}
+h1 {
+    text-align: center;
+    font-family: fantasy;
+    color: coral;
+    word-spacing: 7px;
+}
+
+h1 span {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+}
+
+div {
+    display: inline;
+    padding: 50px 80px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid 2px coral;
+}
+div:hover{
+    color: white;
+}
+
+.project1 {
+    background-color: #AD0799;
+    
+}
+.project2 {
+    background-color: #2DAD07;
+}
+.project3 {
+    background-color: #07A0AD;
+}
+
+@media all and (max-width:700px) {
+    nav a {
+        display: block;
+    }
+    div {
+        display: block;
+    }
+}
